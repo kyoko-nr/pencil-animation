@@ -21,11 +21,11 @@ module.exports = [
     },
     plugins: [
       // staticフォルダの中をコピーして展開してくれる
-      // new CopyWebpackPlugin({
-      //   patterns: [
-      //     { from: path.resolve(__dirname, './static'), to: path.resolve(__dirname, 'dist/static') }
-      //   ]
-      // }),
+      new CopyWebpackPlugin({
+        patterns: [
+          { from: path.resolve(__dirname, './static'), to: path.resolve(__dirname, 'dist/static') }
+        ]
+      }),
       // htmlファイルをindex.htmlという名前で展開してくれる
       new HtmlWebpackPlugin({
         template: path.resolve(__dirname, '/src/index.html'),
