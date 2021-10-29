@@ -2,9 +2,9 @@
 /node_modules
 
 # static
-# Herokuにデプロイするときはコメントアウトを外す
+# Herokuにデプロイするときはコメントアウトする
 /static
 
 # production
-# Herokuにデプロイするときはコメントアウトを外す
+# Herokuにデプロイするときはコメントアウトする
 /dist
