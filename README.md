@@ -1,16 +1,23 @@
 # pencil-animation
 Pencil animation using three.js and Blender
 
-# yarnコマンド
+# yarn commands
 
-### 開発サーバを立ち上げる
+### Open dev server
 
 ```
-yarn start
+yarn serve
 ```
 
-### ビルド
+### Build the app
 
 ```
 yarn build
 ```
+
+# Heroku
+
+You can see this project on Heroku
+
+https://pencil-animation.herokuapp.com/
+
